@@ -139,29 +139,3 @@ output=open('ACL_POSTURE_REDIRECT.txt','r')
 print(output.read())
 
 print('\n''Script finished')
-"""
-
-		print ('====== aclin device ', device_template['ip'],' ======')
-		#Connect to device and send config
-		net_connect = ConnectHandler(**device_template)
-		net_connect.enable()
-		output = net_connect.send_config_from_file('commands_to_send.txt')
-		print(output)
-		#Save acls in file
-		acl = open('acl_file.txt', 'a')
-		acl.write('\n')
-		acl.write(device_template['ip'])
-		acl.write('\n')
-		acl.write(output)
-		acl.write('\n')
-		net_connect.disconnect()
-		print ('====== aclout device', device_template['ip'],' ======')
-	except:
-		acl = open('acl_file.txt', 'a')
-		acl.write('\n')
-		acl.write('Couldnt access the device ')
-		acl.write(device_template['ip'])
-		acl.write('\n')
-		print ('Couldnt access device', device_template['ip'],' =====')
-print('\n' 'Script finished')
-"""
