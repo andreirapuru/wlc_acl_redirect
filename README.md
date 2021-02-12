@@ -1,2 +1,14 @@
 # wlc_acl_redirect
-Scritp to create ACLs Posture and WebAuth Redirect to Cisco WLC - AIROS
+Script to create ACLs Posture and WebAuth Redirect to Cisco WLC - AirOS
+
+Requires:
+- python (tested on python 3.8.6 Windows)
+
+How to use:
+1) Inform how many PSN you have
+2) Inform how many remediation servers you have
+3) Inform IP address of each PSN and Remediation Server (Ex: 10.1.1.1)
+3) Run wlc_acl_ise.py
+
+Use case:
+- create acls to be applied on Cisco WLC running AirOS, when deploying ISE.
