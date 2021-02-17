@@ -1,5 +1,5 @@
 
-# wlc_acl_redirect
+# WLC ACL Redirect
 Script to create ACLs (Local Mode) Posture and WebAuth Redirect to Cisco WLC running AirOS.
 We need these ACLs when integration with ISE and using Posture and WebAuth (Guest Portal).
 
