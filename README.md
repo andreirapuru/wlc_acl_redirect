@@ -4,17 +4,16 @@ Script to create ACLs (Local Mode) Posture and WebAuth Redirect to Cisco WLC run
 We need these ACLs when integration with ISE and using Posture and WebAuth (Guest Portal).
 
 # Requires:
-- python (tested on python 3.8.6 for Windows)
-- download this repository or copy all of the content from wlc_acl_ise.py file into a python file.
-
+- Python (tested on Python 3.8.6 for Windows)
 
 # Usage:
-1) Run wlc_acl_ise.py
-2) Inform how many PSN you have (ex: 2)
-3) Inform how many remediation servers you have (ex: 1)
-4) Inform IP address of each PSN and Remediation Server (Ex: 10.1.1.1)
-5) A .txt file will be generated with the ACLs
-6) Copy the ACLs to the WLC (CLI)
+1) Download this repository or copy all of the content from wlc_acl_ise.py file into a python file
+2) Run wlc_acl_ise.py
+3) Inform how many PSN you have (ex: 2)
+4) Inform how many remediation servers you have (ex: 1)
+5) Inform IP address of each PSN and Remediation Server (Ex: 10.1.1.1)
+6) A .txt file will be generated with the ACLs
+7) Copy the ACLs to the WLC (CLI)
 
 ![Output](https://raw.githubusercontent.com/andreirapuru/wlc_acl_redirect/main/wlc_acl_redirect.png)
 
