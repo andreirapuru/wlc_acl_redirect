@@ -24,3 +24,4 @@ We need these ACLs when integration with ISE and using Posture and WebAuth (Gues
 # Getting Help:
 - If you are having trouble or need help, create an issue [here](https://github.com/andreirapuru/wlc_acl_redirect/issues)
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/andreirapuru/wlc_acl_redirect)
