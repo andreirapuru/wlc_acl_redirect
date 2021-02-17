@@ -18,5 +18,5 @@ Usage:
 Use case:
 - Create acls to be applied on Cisco WLC running AirOS, when deploying ISE and using Posture and WebAuth (Guest Portal).
 
-Getting help
-If you are having trouble or need help, create an issue here (https://github.com/andreirapuru/wlc_acl_redirect/issues)
+Getting Help:
+- If you are having trouble or need help, create an issue here (https://github.com/andreirapuru/wlc_acl_redirect/issues)
