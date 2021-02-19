@@ -15,7 +15,7 @@ We need these ACLs when integration with ISE and using Posture and WebAuth (Gues
 6) A .txt file will be generated with the ACLs
 7) Copy the ACLs to the WLC (CLI)
 
-![Output](https://raw.githubusercontent.com/andreirapuru/wlc_acl_redirect/main/wlc_acl_redirect.png)
+![Output](https://user-images.githubusercontent.com/17407109/108560112-014a8f80-72db-11eb-8837-e8573f405751.png)
 
 # Use case:
 - Create acls (local mode) to be applied on Cisco WLC running AirOS, when deploying ISE and using Posture and WebAuth (Guest Portal).
