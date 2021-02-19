@@ -1,5 +1,5 @@
 #Author: Andre Ortega, brainwork.com.br
-#https://github.com/andreirapuru/netmiko_send_commands
+#https://github.com/andreirapuru/wlc_acl_redirect
 
 print('\n********************************** Script initiated **********************************')
 print('\n')
